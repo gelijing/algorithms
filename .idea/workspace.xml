@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3359f2a5-313d-4f72-b506-8dcf404aeebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dongtaiguihua/Fib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baiduTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baiduTest/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MaxSubArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MaxSubArrMul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ValidBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/BinarySearch.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +33,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568098793742" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568083233435</updated>
       <workItem from="1568083238065" duration="9248000" />
-      <workItem from="1568702322164" duration="1245000" />
+      <workItem from="1568702322164" duration="6737000" />
     </task>
     <servers />
   </component>
