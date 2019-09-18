@@ -10,32 +10,24 @@ import java.util.Stack;
 public class ValidBST {
     //法一：中序遍历
     public boolean isValidBST(TreeNode root) {
-        if (root == null ){
+        if (root == null) {
             return true;
         }
-        List<Integer> integers = inOrder(root);
-        for (int i = 1 ; i < integers.size();i++){
-            if (integers.get(i) <= integers.get(i-1)){
-                return false;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode pre = null;
+        while (root != null || !stack.isEmpty()) {
+            if (root != null) {
+                stack.push(root);
+                root = root.left;
+            } else {
+                root = stack.pop();
+                if (pre != null && pre.val >= root.val)
+                    return false;
+                pre = root;
+                root = root.right;
             }
         }
         return true;
-    }
-
-    private List<Integer> inOrder(TreeNode node){
-        List<Integer> list = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        while(node != null || !stack.isEmpty()){
-            if (node != null){
-                stack.push(node);
-                node = node.left;
-            }else{
-                node = stack.pop();
-                list.add(node.val);
-                node = node.right;
-            }
-        }
-        return list;
     }
     //法二
 }
