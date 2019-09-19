@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3359f2a5-313d-4f72-b506-8dcf404aeebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designModel/mq/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designModel/mq/BrokerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designModel/producterConsumerMode/Consume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designModel/producterConsumerMode/Producter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designModel/producterConsumerMode/SyncStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designModel/producterConsumerMode/TestStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aiqiyiTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aiqiyiTest/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/BananaCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/dongtaiguihua/Fib.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/dongtaiguihua/Fib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ValidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ValidBST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStack">
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dongtaiguihua.Fib" />
+  <component name="RunManager" selected="Application.Test6">
+    <configuration name="BananaCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dahuaTest.BananaCount" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dongtaiguihua.*" />
+          <option name="PATTERN" value="dahuaTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,22 +71,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test" />
       <module name="algorithms" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designModel.producterConsumerMode.TestStack" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test2" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designModel.producterConsumerMode.*" />
+          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test3" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test6" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dahuaTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStack" />
-        <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.BananaCount" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568083233435</updated>
       <workItem from="1568083238065" duration="9248000" />
-      <workItem from="1568702322164" duration="14114000" />
+      <workItem from="1568702322164" duration="25257000" />
     </task>
     <servers />
   </component>
@@ -146,6 +178,26 @@
           <url>file://$PROJECT_DIR$/src/digui/ReveseBinaryTree.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aiqiyiTest/Main1.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aiqiyiTest/Main1.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dahuaTest/Test3.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dahuaTest/Test3.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
