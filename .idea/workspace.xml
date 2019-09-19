@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3359f2a5-313d-4f72-b506-8dcf404aeebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aiqiyiTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aiqiyiTest/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/BananaCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dahuaTest/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cvteTest/StringToInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test6">
+  <component name="RunManager" selected="Application.StringToInt">
     <configuration name="BananaCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dahuaTest.BananaCount" />
       <module name="algorithms" />
@@ -71,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test" />
+    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cvteTest.StringToInt" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="PATTERN" value="cvteTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringToInt" />
         <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.BananaCount" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -144,18 +135,9 @@
       <option name="presentableId" value="Default" />
       <updated>1568083233435</updated>
       <workItem from="1568083238065" duration="9248000" />
-      <workItem from="1568702322164" duration="25257000" />
+      <workItem from="1568702322164" duration="26292000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -198,6 +180,11 @@
           <url>file://$PROJECT_DIR$/src/dahuaTest/Test3.java</url>
           <line>29</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dahuaTest/Test6.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
