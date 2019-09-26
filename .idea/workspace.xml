@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3359f2a5-313d-4f72-b506-8dcf404aeebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cvteTest/StringToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heapSort/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mafengwoTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/souhuTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tengxunTest/JudgeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tengxunTest/Xor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tengxunTest/minTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tongchengTest/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tongchengTest/HaoTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tongchengTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xindongfangTest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringToInt">
-    <configuration name="BananaCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dahuaTest.BananaCount" />
+  <component name="RunManager" selected="Application.HaoTime">
+    <configuration name="Email" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tongchengTest.Email" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="PATTERN" value="tongchengTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cvteTest.StringToInt" />
+    <configuration name="HaoTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tongchengTest.HaoTime" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cvteTest.*" />
+          <option name="PATTERN" value="tongchengTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test2" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tongchengTest.Main" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="PATTERN" value="tongchengTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test3" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mafengwoTest.Main" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="PATTERN" value="mafengwoTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dahuaTest.Test6" />
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heapSort.MaxHeap" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dahuaTest.*" />
+          <option name="PATTERN" value="heapSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringToInt" />
-        <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.BananaCount" />
+        <item itemvalue="Application.HaoTime" />
+        <item itemvalue="Application.Email" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MaxHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568083233435</updated>
       <workItem from="1568083238065" duration="9248000" />
-      <workItem from="1568702322164" duration="26292000" />
+      <workItem from="1568702322164" duration="46216000" />
     </task>
     <servers />
   </component>
@@ -185,6 +194,26 @@
           <url>file://$PROJECT_DIR$/src/dahuaTest/Test6.java</url>
           <line>9</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tengxunTest/minTime.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tengxunTest/minTime.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mafengwoTest/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mafengwoTest/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
