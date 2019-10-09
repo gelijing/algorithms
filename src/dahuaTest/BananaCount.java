@@ -1,6 +1,11 @@
 package dahuaTest;
 
+import linkTable.ListNode;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
 
 /**
  * 题目描述：
@@ -28,4 +33,17 @@ public class BananaCount {
             return part(++num,1);
         }
     }
+    public String replaceSpace(StringBuffer str) {
+        String string = null;
+        for(int i = 0 ; i < str.length();i++){
+            if (str.charAt(i) == ' '){
+                string+="20%";
+                continue;
+            }
+            string +=str.charAt(i);
+        }
+        return string;
+    }
+
+
 }

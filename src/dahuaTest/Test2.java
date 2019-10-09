@@ -8,7 +8,11 @@ public class Test2 {
         Test2 ex = new Test2();
         ex.change(ex.str,ex.ch);
         System.out.print(ex.str+" and ");
-        System.out.print(ex.ch);
+        System.out.println(ex.ch);
+        String a = "test";
+        String b = a;
+        a = "change";
+        System.out.println(a+ " " + b);//String 值引用
     }
 
     private void change(String str, char[] ch) {
