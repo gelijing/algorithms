@@ -13,9 +13,9 @@ public class Main {
         StringBuffer sb = new StringBuffer();
         long jinzhi = 27;
         boolean f = true;
-        char[] arr = new char[]{'0','1','2','3','4','5','6','7','8','9','`','!','@','#','$','%','^','&','*','(',')','{','}','\\','<','>','?'};
+        char[] arr = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '{', '}', '\\', '<', '>', '?'};
         while (f) {
-            sb.insert(0,arr[(int) (n % jinzhi)]);
+            sb.insert(0, arr[(int) (n % jinzhi)]);
             //sb.insert(0, ((char) (n % jinzhi + 33)));
             n = n / jinzhi;
             if (n == 0)

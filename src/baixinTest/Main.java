@@ -12,12 +12,12 @@ public class Main {
         }*/
         /*String t = "you have an apple";
         System.out.println(t.length());*/
-        String filename= "a.txt";
+        String filename = "a.txt";
         try {
             FileOutputStream out = new FileOutputStream(filename);
             out.write('A');
             out.write(65);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -1,9 +1,14 @@
 package dahuaTest;
 
 public abstract class Test {
-    private final void sleep(){}
-    /*private*/ abstract void eat();//abstract不能和private并列修饰同一个方法
+    private final void sleep() {
+    }
+
+    /*private*/
+    abstract void eat();//abstract不能和private并列修饰同一个方法
+
     public /*final*/ abstract void play();//abstract不能和final并列修饰同一个方法
+
     protected abstract void work();//要加入abstract
 
     //静态代码块（且只执行一次） 》代码块 》 构造函数 》

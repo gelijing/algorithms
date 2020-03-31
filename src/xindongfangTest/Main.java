@@ -4,12 +4,12 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //这里可以编写伪代码，不管是否编译通过
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String[] split = str.split("]");
-        int[][] arr = new int[split.length-1][3];
+        int[][] arr = new int[split.length - 1][3];
         char[] chars = str.toCharArray();
         /*for (int i = 0;i<split.length-1;i++){
             for (int j = 0 ; j < 3; j++){
@@ -23,7 +23,8 @@ public class Main {
         }*/
         arr2Json(arr);
     }
-    private static void arr2Json(int[][] blogList){
+
+    private static void arr2Json(int[][] blogList) {
         StringBuffer sb = new StringBuffer();
         boolean first = true;
         sb.append("[");

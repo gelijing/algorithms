@@ -14,33 +14,32 @@ public class Main {
         int W = sc.nextInt();//最大承重为 W 的桥
         int[] w = new int[N];// 第 i 辆车的重量为 w[i]
         int[] t = new int[N];//通过桥的时间为 t[i]
-        for (int i = 0 ; i < N;i++){
+        for (int i = 0; i < N; i++) {
             w[i] = sc.nextInt();
         }
-        for (int i = 0 ; i < N;i++){
+        for (int i = 0; i < N; i++) {
             t[i] = sc.nextInt();
         }
-        int time = core(w,t,W);
+        int time = core(w, t, W);
         System.out.println(time);
     }
 
     private static int core(int[] w, int[] t, int W) {
         int[] sum = new int[w.length];
-        sum[0]=w[0];
-        for (int i=1;i< w.length ;i++){
-            sum[i]=sum[i-1]+w[i];
+        sum[0] = w[0];
+        for (int i = 1; i < w.length; i++) {
+            sum[i] = sum[i - 1] + w[i];
         }
         int[] f = new int[w.length];
         f[0] = t[0];
-        for (int i=1;i<w.length;++i)
-        {
-            f[i] = t[i]+f[i-1];
-            for (int j=i-1;j>0;--j){
-                if (sum[i]-sum[j]<= W)
-                    f[i]=Math.min(f[i],f[j-1]+t[i]);
+        for (int i = 1; i < w.length; ++i) {
+            f[i] = t[i] + f[i - 1];
+            for (int j = i - 1; j > 0; --j) {
+                if (sum[i] - sum[j] <= W)
+                    f[i] = Math.min(f[i], f[j - 1] + t[i]);
                 else break;
             }
         }
-        return f[w.length-2];
+        return f[w.length - 2];
     }
 }

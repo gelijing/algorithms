@@ -14,8 +14,9 @@ import java.util.Stack;
  */
 public class BananaCount {
     private static int num = 0;
+
     public static void main(String[] args) {
-        System.out.println(part(1,1));
+        System.out.println(part(1, 1));
     }
 
     /**
@@ -24,23 +25,24 @@ public class BananaCount {
      * @return
      */
     private static int part(int i, int j) {
-        if (i%5==1 && j<=5){
-            if (j==5){
+        if (i % 5 == 1 && j <= 5) {
+            if (j == 5) {
                 return num;
             }
-            return part((i-1)/5*4,++j);
-        }else {
-            return part(++num,1);
+            return part((i - 1) / 5 * 4, ++j);
+        } else {
+            return part(++num, 1);
         }
     }
+
     public String replaceSpace(StringBuffer str) {
         String string = null;
-        for(int i = 0 ; i < str.length();i++){
-            if (str.charAt(i) == ' '){
-                string+="20%";
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ' ') {
+                string += "20%";
                 continue;
             }
-            string +=str.charAt(i);
+            string += str.charAt(i);
         }
         return string;
     }

@@ -10,17 +10,17 @@ public class Main3 {
     }
 
     private static int core(int num) {
-        int[] a = new int[num+1];
+        int[] a = new int[num + 1];
         a[0] = 0;
-        if(num > 0){
+        if (num > 0) {
             a[1] = 1;
         }
-        if(num > 1){
+        if (num > 1) {
             a[2] = 2;
         }
-        if(num >=3){
-            for(int i = 3; i < a.length;i++ ){
-                a[i] = a[i-1] + a[i-2];
+        if (num >= 3) {
+            for (int i = 3; i < a.length; i++) {
+                a[i] = a[i - 1] + a[i - 2];
             }
         }
         return a[num];

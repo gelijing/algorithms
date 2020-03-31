@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main2 {
     public static void main(String[] args) {
-        while(true){
+        while (true) {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
             System.out.println(core(n));
@@ -32,15 +32,15 @@ public class Main2 {
         return sum;
     }*/
     private static long core(int n) {
-        if(n <= 0){
+        if (n <= 0) {
             return 0;
         }
         long i = 0;
         long j = n;
         Long sum = Long.MIN_VALUE;
-        while(i<=j){
-            if(i*j>sum){
-                sum = i*j;
+        while (i <= j) {
+            if (i * j > sum) {
+                sum = i * j;
             }
             i++;
             j--;

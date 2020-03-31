@@ -12,25 +12,25 @@ public class Main1 {
     }
 
     private static String printUrl(String[] arr) {
-        if (arr == null || arr.length <= 1){
+        if (arr == null || arr.length <= 1) {
             return "/";
         }
         String res;
         String temp = arr[0];
-        for(int i = temp.length()-1;i>=0;i--){
-            if(temp.charAt(i) != '/'){
-                temp = temp.substring(0,i+1);
+        for (int i = temp.length() - 1; i >= 0; i--) {
+            if (temp.charAt(i) != '/') {
+                temp = temp.substring(0, i + 1);
                 break;
             }
         }
         String temp1 = arr[1];
-        for (int i = 0;i < temp1.length();i++){
-            if(temp1.charAt(i) != '/'){
+        for (int i = 0; i < temp1.length(); i++) {
+            if (temp1.charAt(i) != '/') {
                 temp1 = temp1.substring(i);
                 break;
             }
         }
-        res = temp +"/" + temp1;
+        res = temp + "/" + temp1;
         return res;
     }
 }

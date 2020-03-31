@@ -10,28 +10,30 @@ import java.net.Socket;
 public class BrokerService implements Runnable {
     public static int SERVICE_PORT = 9999;
     private final Socket socket;
-    public BrokerService(Socket socket){
+
+    public BrokerService(Socket socket) {
         this.socket = socket;
     }
+
     @Override
     public void run() {
         try (BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-             PrintWriter out = new PrintWriter(socket.getOutputStream())){
-            while (true){
+             PrintWriter out = new PrintWriter(socket.getOutputStream())) {
+            while (true) {
                 String str = in.readLine();
-                if (str == null){
+                if (str == null) {
                     continue;
                 }
-                System.out.println("接收原始数据："+str);
-                if (str.equals("CONSUME")){
+                System.out.println("接收原始数据：" + str);
+                if (str.equals("CONSUME")) {
                     String message = Broker.consume();
                     out.println(message);
                     out.flush();
-                }else {
+                } else {
                     Broker.produce(str);
                 }
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

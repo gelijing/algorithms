@@ -11,9 +11,9 @@ public class Main2 {
 
     private static int countOne(int num) {
         int res = 0;
-        while(num!=0){
+        while (num != 0) {
             res++;
-            num = num & (num-1);
+            num = num & (num - 1);
         }
         return res;
     }

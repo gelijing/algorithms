@@ -21,13 +21,13 @@ public class Test3 {
         hashSet.add(str3);
         hashSet.add(str4);
         Iterator it = hashSet.iterator();
-        while (it.hasNext()){
+        while (it.hasNext()) {
             System.out.println(it.next());
         }
 
-        int i = (int)4L;
+        int i = (int) 4L;
         double d = 34.4;
-        float f = (float)1.10;
+        float f = (float) 1.10;
         long a = 13848654;
         ThreadLocal threadLocal = new ThreadLocal();
 
